@@ -1,0 +1,40 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 70px;
+    background-color: white;
+  
+
+}
+.sidebar-link{
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: grey;
+
+}
+.sidebar-link img{
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.sidebar-link div{
+    font-family: roboto, arial;
+    font-size: 11px;
+}
+.musicsg{
+    height: 11px;
+    width: 40px;
+}
+.libraryg{
+    width: 90px;
+    height: 90px;
+}
